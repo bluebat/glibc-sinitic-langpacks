@@ -1,0 +1,17 @@
+Please help to CONFIRM at:
+https://sourceware.org/bugzilla/show_bug.cgi?id=24409
+
+Filenames with .def to avoid ambiguity with system definitions.
+
+Collation from the forked project https://github.com/chinese-opendesktop/cns11643-data
+https://github.com/chinese-opendesktop/cns11643-data/releases/download/v1/cns11643_stroke.gz
+Upstream: http://data.gov.tw/node/5961
+License changed to "CC Attribution 4.0 international" compatible:
+http://data.gov.tw/license#eng
+
+Era settings from https://sourceware.org/bugzilla/show_bug.cgi?id=24293
+
+Closed commit requests:
+https://sourceware.org/bugzilla/show_bug.cgi?id=15609
+https://sourceware.org/bugzilla/show_bug.cgi?id=16905
+https://sourceware.org/bugzilla/show_bug.cgi?id=17563
