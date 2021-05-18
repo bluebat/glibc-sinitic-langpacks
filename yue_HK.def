@@ -25,7 +25,7 @@ fax        ""
 language   "Yue Chinese"
 territory  "Hong Kong SAR China"
 revision   "1.1"
-date       "2019-04-02"
+date       "2021-04-21"
 
 category "i18n:2012";LC_IDENTIFICATION
 category "i18n:2012";LC_CTYPE

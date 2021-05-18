@@ -23,7 +23,7 @@ fax          ""
 language     "Literary Chinese"
 territory    "Taiwan"
 revision     "0.2"
-date         "2019-04-02"
+date         "2021-04-21"
 
 category "i18n:2012";LC_IDENTIFICATION
 category "i18n:2012";LC_CTYPE
@@ -58,19 +58,19 @@ copy "cns11643_stroke"
 END LC_COLLATE
 
 LC_TIME
-% 孟春, 仲春, 季春, 孟夏, 仲夏, 季夏, 孟秋, 仲秋, 季秋, 孟冬, 仲冬, 季冬
-mon           "<U5B5F><U6625>";/
-     "<U4EF2><U6625>";/
-     "<U5B63><U6625>";/
-     "<U5B5F><U590F>";/
-     "<U4EF2><U590F>";/
-     "<U5B63><U590F>";/
-     "<U5B5F><U79CB>";/
-     "<U4EF2><U79CB>";/
-     "<U5B63><U79CB>";/
-     "<U5B5F><U51AC>";/
-     "<U4EF2><U51AC>";/
-     "<U5B63><U51AC>"
+% 一月, 二月, 三月, 四月, 五月, 六月, 七月, 八月, 九月, 十月, 十一月, 十二月
+mon           "<U4E00><U6708>";/
+     "<U4E8C><U6708>";/
+     "<U4E09><U6708>";/
+     "<U56DB><U6708>";/
+     "<U4E94><U6708>";/
+     "<U516D><U6708>";/
+     "<U4E03><U6708>";/
+     "<U516B><U6708>";/
+     "<U4E5D><U6708>";/
+     "<U5341><U6708>";/
+     "<U5341><U4E00><U6708>";/
+     "<U5341><U4E8C><U6708>"
 % 一, 二, 三, 四, 五, 六, 七, 八, 九, 十, 十一, 十二
 abmon         "<U4E00>";/
        "<U4E8C>";/
@@ -186,7 +186,7 @@ END LC_TIME
 
 LC_NUMERIC
 decimal_point "."
-thousands_sep "<U0027>"
+thousands_sep "<U2009>"
 grouping      4
 END LC_NUMERIC
 
@@ -194,7 +194,7 @@ LC_MONETARY
 currency_symbol    "NT$"
 int_curr_symbol    "TWD "
 mon_decimal_point  "."
-mon_thousands_sep  "<U0027>"
+mon_thousands_sep  "<U2009>"
 mon_grouping       4
 positive_sign      ""
 negative_sign      "-"

@@ -23,7 +23,7 @@ fax          ""
 language     "Mandarin Chinese"
 territory    "Taiwan"
 revision     "0.3"
-date         "2019-04-02"
+date         "2021-04-21"
 
 category "i18n:2012";LC_IDENTIFICATION
 category "i18n:2012";LC_CTYPE
@@ -123,7 +123,7 @@ END LC_TIME
 
 LC_NUMERIC
 decimal_point "."
-thousands_sep "<U0027>"
+thousands_sep "<U2009>"
 grouping      4
 END LC_NUMERIC
 
@@ -131,7 +131,7 @@ LC_MONETARY
 currency_symbol    "NT$"
 int_curr_symbol    "TWD "
 mon_decimal_point  "."
-mon_thousands_sep  "<U0027>"
+mon_thousands_sep  "<U2009>"
 mon_grouping       4
 positive_sign      ""
 negative_sign      "-"

@@ -38,5 +38,5 @@ rm -rf %{buildroot}
 /usr/lib/locale/*
 
 %changelog
-* Sun Apr 4 2021 Wei-Lun Chao <bluebat@member.fsf.org> - 2.33
+* Wed Apr 21 2021 Wei-Lun Chao <bluebat@member.fsf.org> - 2.33
 - Initial package
