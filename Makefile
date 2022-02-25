@@ -1,4 +1,4 @@
-VERSION = 2.33
+VERSION = 2.35
 DESTDIR =
 PREFIX = /usr
 PACKAGE = glibc-sinitic-langpacks
@@ -12,6 +12,7 @@ install:
 	localedef -f UTF-8 -i nan_TW@latin.def --no-archive $(DESTDIR)$(PREFIX)/lib/locale/nan_TW@latin
 	localedef -f UTF-8 -i hak_TW.def --no-archive $(DESTDIR)$(PREFIX)/lib/locale/hak_TW
 	localedef -f UTF-8 -i lzh_TW.def --no-archive $(DESTDIR)$(PREFIX)/lib/locale/lzh_TW
+	localedef -f UTF-8 -i yue_TW.def --no-archive $(DESTDIR)$(PREFIX)/lib/locale/yue_TW
 	localedef -f UTF-8 -i yue_HK.def --no-archive $(DESTDIR)$(PREFIX)/lib/locale/yue_HK
 	localedef -f UTF-8 -i cmn.def --no-archive $(DESTDIR)$(PREFIX)/lib/locale/cmn
 	localedef -f UTF-8 -i nan.def --no-archive $(DESTDIR)$(PREFIX)/lib/locale/nan
@@ -25,6 +26,7 @@ uninstall:
 	rm -rf $(DESTDIR)$(PREFIX)/lib/locale/nan_TW@latin
 	rm -rf $(DESTDIR)$(PREFIX)/lib/locale/hak_TW
 	rm -rf $(DESTDIR)$(PREFIX)/lib/locale/lzh_TW
+	rm -rf $(DESTDIR)$(PREFIX)/lib/locale/yue_TW
 	rm -rf $(DESTDIR)$(PREFIX)/lib/locale/yue_HK
 	rm -rf $(DESTDIR)$(PREFIX)/lib/locale/cmn
 	rm -rf $(DESTDIR)$(PREFIX)/lib/locale/nan

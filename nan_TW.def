@@ -1,12 +1,12 @@
 comment_char %
 escape_char /
 
-% This file is a part of GNU C Library (glibc) and contains locale data. The
-% Free Software Foundation does not claim any copyright interest in the
-% locale data contained in this file. The foregoing does not affect the
-% license of GNU C Library (glibc) as a whole. It does not exempt you from the
-% conditions of the license if your use would otherwise be governed by
-% that license.
+% This file is part of the GNU C Library and contains locale data.
+% The Free Software Foundation does not claim any copyright interest
+% in the locale data contained in this file.  The foregoing does not
+% affect the license of the GNU C Library as a whole.  It does not
+% exempt you from the conditions of the license if your use would
+% otherwise be governed by that license.
 
 % Min Nan Chinese locale for the Republic of China
 % Prepared and contributed to glibc by Wei-Lun Chao <bluebat@member.fsf.org>
@@ -23,7 +23,7 @@ fax          ""
 language     "Min Nan Chinese"
 territory    "Taiwan"
 revision     "0.2"
-date         "2021-04-21"
+date         "2021-11-19"
 
 category "i18n:2012";LC_IDENTIFICATION
 category "i18n:2012";LC_CTYPE
@@ -72,15 +72,15 @@ mon           "<U4E00><U6708>";/
      "<U5341><U4E00><U6708>";/
      "<U5341><U4E8C><U6708>"
 % 1月, 2月, 3月, 4月, 5月, 6月, 7月, 8月, 9月, 10月, 11月, 12月
-abmon         "1<U6708>";/
-       "2<U6708>";/
-       "3<U6708>";/
-       "4<U6708>";/
-       "5<U6708>";/
-       "6<U6708>";/
-       "7<U6708>";/
-       "8<U6708>";/
-       "9<U6708>";/
+abmon         " 1<U6708>";/
+       " 2<U6708>";/
+       " 3<U6708>";/
+       " 4<U6708>";/
+       " 5<U6708>";/
+       " 6<U6708>";/
+       " 7<U6708>";/
+       " 8<U6708>";/
+       " 9<U6708>";/
        "10<U6708>";/
        "11<U6708>";/
        "12<U6708>"
@@ -162,8 +162,8 @@ measurement 1
 END LC_MEASUREMENT
 
 LC_MESSAGES
-yesexpr "^[yY]"
-noexpr  "^[nN]"
+yesexpr "^[+1yY<UFF59><UFF39><U662F>]"
+noexpr  "^[-0nN<UFF4E><UFF2E><U4E0D><U5426>]"
 % 是
 yesstr  "<U662F>"
 % 毋是
