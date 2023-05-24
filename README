@@ -23,7 +23,7 @@ Commands:
 git clone https://sourceware.org/git/glibc.git
 for i in *_TW.def; do cp $i glibc/localedata/locales/${i%.def}; done
 cd glibc
-git add .
+git add -p .
 git commit -m 'localedata: Updates for Taiwanese locales [BZ #24409]'
-git format-patch -1
-mv 0001-*.patch ..
+git format-patch -v 3 origin
+mv 000?-*.patch ..
