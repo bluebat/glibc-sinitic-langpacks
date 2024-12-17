@@ -1,4 +1,4 @@
-VERSION = 2.37
+VERSION = 2.40
 DESTDIR =
 PREFIX = /usr
 PACKAGE = glibc-sinitic-langpacks
